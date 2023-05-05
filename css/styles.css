@@ -799,7 +799,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .modal-form {
@@ -845,6 +845,10 @@ body {
 
 .modal-form-field {
   margin-bottom: 8px;
+}
+
+.modal-form-text-field {
+  margin-bottom: 16px;
 }
 
 .modal-form-input-icon {
@@ -904,11 +908,7 @@ body {
 }
 
 .modal-form-check:focus + .modal-form-accept::before {
-  background-color: #404bbf;
   border: 1px solid #404bbf;
-  background-image: url(../images/modal-window/policy-check.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
   border-radius: 2px;
 }
 
@@ -921,8 +921,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  padding-top: 8px;
-  padding-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .user-policy-link {
